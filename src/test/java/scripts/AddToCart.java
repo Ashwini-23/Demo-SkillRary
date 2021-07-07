@@ -12,7 +12,6 @@ public class AddToCart extends baseClass{
 		SkillRaryLoginPage slp = new SkillRaryLoginPage(driver);
 		slp.gearsbutton();
 		slp.skillrarydemobutton();
-		
 		w.switchTab(driver);
 		
 		DemoSkillraryLoginPage lp = new DemoSkillraryLoginPage(driver);
@@ -21,8 +20,8 @@ public class AddToCart extends baseClass{
 		
 		AddToCartPage cp = new AddToCartPage(driver);
 		w.doubleClick(driver, cp.getPlusbtn());
-				cp.AddToCartbutton();
-				w.alertPopup(driver);
+		cp.AddToCartbutton();
+		w.alertPopup(driver);
 				
 	}
 	

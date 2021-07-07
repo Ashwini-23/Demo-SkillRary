@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 06 23:02:20 IST 2021</td>
+<td>Started on:</td><td>Wed Jul 07 19:35:11 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22365 ms)</td>
+<tr><td>Total time:</td><td>31 seconds (31290 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='scripts.TakeThisCourse.closeApp()'><b>closeApp</b><br>Test class: scripts.TakeThisCourse<br>Parameters: [TestResult name=getCourse status=FAILURE method=TakeThisCourse.getCourse()[pri:0, instance:scripts.TakeThisCourse@6e4784bc] output={null}]</td>
+<td title='scripts.AddToCart.closeApp()'><b>closeApp</b><br>Test class: scripts.AddToCart<br>Parameters: [TestResult name=addProduct status=FAILURE method=AddToCart.addProduct()[pri:0, instance:scripts.AddToCart@29626d54] output={null}]</td>
 <td><div><pre>java.io.IOException: The filename, directory name, or volume label syntax is incorrect
 	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
 	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
 	at java.base/java.io.File.getCanonicalPath(File.java:621)
-	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2600)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:841)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:755)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1079)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at genericlib.screenShot.getPhoto(screenShot.java:20)
-	at genericlib.baseClass.closeApp(baseClass.java:32)
+	at genericlib.baseClass.closeApp(baseClass.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,16 +117,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2144644334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2144644334'><pre>java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+</pre></div><a href='#' onClick='toggleBox("stack-trace61137731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace61137731'><pre>java.io.IOException: The filename, directory name, or volume label syntax is incorrect
 	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
 	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
 	at java.base/java.io.File.getCanonicalPath(File.java:621)
-	at org.apache.commons.io.FileUtils.requireCanonicalPathsNotEquals(FileUtils.java:2600)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:841)
-	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:755)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1079)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1038)
 	at genericlib.screenShot.getPhoto(screenShot.java:20)
-	at genericlib.baseClass.closeApp(baseClass.java:32)
+	at genericlib.baseClass.closeApp(baseClass.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,7 +161,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>scripts.TakeThisCourse@6e4784bc</td></tr>
+<td>scripts.AddToCart@29626d54</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -173,14 +171,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='scripts.TakeThisCourse.getCourse()'><b>getCourse</b><br>Test class: scripts.TakeThisCourse</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;iframe src=&quot;https://player.vimeo.com/video/356464956&quot; width=&quot;600&quot; height=&quot;300&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot; cd_frame_id_=&quot;57de8f6052cb2ced852ca9200cd874be&quot;&gt;&lt;/iframe&gt; is not clickable at point (318, 498). Other element would receive the click: &lt;strong&gt;...&lt;/strong&gt;
+<td title='scripts.AddToCart.addProduct()'><b>addProduct</b><br>Test class: scripts.AddToCart</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=91.0.4472.124)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-T5O2MTCK&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7cdafbc6455b4c319d13d46e18281003
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbdb9d1bec59c936ab4776bf7590b06e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -200,8 +198,8 @@ Session ID: 7cdafbc6455b4c319d13d46e18281003
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at pomPages.seleniumTrainingPage.playbutton(seleniumTrainingPage.java:23)
-	at scripts.TakeThisCourse.getCourse(TakeThisCourse.java:26)
+	at pomPages.AddToCartPage.AddToCartbutton(AddToCartPage.java:24)
+	at scripts.AddToCart.addProduct(AddToCart.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -230,14 +228,14 @@ Session ID: 7cdafbc6455b4c319d13d46e18281003
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1556162268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1556162268'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;iframe src=&quot;https://player.vimeo.com/video/356464956&quot; width=&quot;600&quot; height=&quot;300&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot; cd_frame_id_=&quot;57de8f6052cb2ced852ca9200cd874be&quot;&gt;&lt;/iframe&gt; is not clickable at point (318, 498). Other element would receive the click: &lt;strong&gt;...&lt;/strong&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace636959006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace636959006'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=91.0.4472.124)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-T5O2MTCK&apos;, ip: &apos;192.168.1.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7cdafbc6455b4c319d13d46e18281003
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Ashwini\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbdb9d1bec59c936ab4776bf7590b06e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -257,8 +255,8 @@ Session ID: 7cdafbc6455b4c319d13d46e18281003
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at pomPages.seleniumTrainingPage.playbutton(seleniumTrainingPage.java:23)
-	at scripts.TakeThisCourse.getCourse(TakeThisCourse.java:26)
+	at pomPages.AddToCartPage.AddToCartbutton(AddToCartPage.java:24)
+	at scripts.AddToCart.addProduct(AddToCart.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -288,8 +286,8 @@ Session ID: 7cdafbc6455b4c319d13d46e18281003
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>12</td>
-<td>scripts.TakeThisCourse@6e4784bc</td></tr>
+<td>21</td>
+<td>scripts.AddToCart@29626d54</td></tr>
 </table><p>
 </body>
 </html>
